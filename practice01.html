@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+      <meta charset="utf-8" />
+      <title>local storage for IE</title>
+      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+      <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  </head>
+  <body>
+    <div class="memoApp">
+      <div class="memoForm">
+        <input type="text" id="title" class="form-control" placeholder="タイトル" />
+        <textarea class="form-control" rows="3" placeholder="本文" id="body"></textarea>
+        <button type="button" class="btn btn-primary btn-block" id="btnAdd">追加</button>
+      </div>
+    
+      <div id="memoArea">
+      </div>
+    
+      <button type="button" class="btn btn-primary btn-block" id="btnReset">リセット</button>
+    </div>
+  </body>
+</html>
+ 
